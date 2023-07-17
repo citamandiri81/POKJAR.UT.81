@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.navbar .container-fluid .collapse ul li a {
+  font-size: 0.8rem;
+}
+
+.navbar .container-fluid form {
+  margin: auto;
+}
+
+.navbar .container-fluid form .form-control {
+  width: 200px;
+  height: 35px;
+  font-size: 0.8rem;
+}
+
+.navbar .container-fluid .sosmed a {
+  margin: 0;
+  padding: 0.3rem 0.5rem;
+  color: black;
+}
+.navbar .container-fluid .sosmed a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}

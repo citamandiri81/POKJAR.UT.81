@@ -64,6 +64,10 @@ nav {
   font-size: 2rem;
 }
 
+.navbar-bawah .container-fluid .logo:hover {
+  color: rgb(224, 146, 0);
+}
+
 .navbar-bawah .container-fluid ul li a {
   font-size: 1rem;
   font-weight: 400;
@@ -79,10 +83,15 @@ nav {
   color: rgb(224, 146, 0);
 }
 
+.navbar-bawah .container-fluid ul li .dropdown-menu li a.active {
+  background-color: rgb(224, 146, 0);
+  color: aliceblue;
+}
+
 /* Judul Tentang UT */
 .hero .judul-ut {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .hero .judul-ut h2 {
@@ -149,6 +158,28 @@ nav {
 
 .hero .row .col-lg-4 ol li {
   text-align: justify;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(224, 146, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgb(228, 228, 228);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+  color: rgb(158, 103, 0);
 }
 
 /* Media Queries */

@@ -9,27 +9,65 @@ body {
   box-sizing: border-box;
 }
 
-.navbar .container-fluid .collapse ul li a {
+nav {
+  box-sizing: border-box;
+}
+
+.navbar-atas .container-fluid .collapse ul li a {
   font-size: 0.8rem;
 }
 
-.navbar .container-fluid form {
+.navbar-atas .container-fluid form {
   margin: auto;
 }
 
-.navbar .container-fluid form .form-control {
+.navbar-atas .container-fluid form .form-control {
   width: 200px;
   height: 35px;
   font-size: 0.8rem;
 }
 
-.navbar .container-fluid .sosmed a {
+.navbar-atas .container-fluid .sosmed a {
   margin: 0;
   padding: 0.3rem 0.5rem;
   color: black;
 }
-.navbar .container-fluid .sosmed a:hover {
+.navbar-atas .container-fluid .sosmed a:hover {
   background-color: black;
   color: white;
   transition: 0.2s;
+}
+
+/* Navbar Nawah */
+.navbar-bawah .container-fluid .navbar-nav {
+  width: auto;
+  margin: auto;
+}
+
+.navbar-bawah .container-fluid .logo {
+  color: darkred;
+  font-size: 2rem;
+}
+
+.navbar-bawah .container-fluid ul li a {
+  font-size: 1rem;
+  color: rgb(194, 194, 194);
+}
+
+.navbar-bawah .container-fluid ul li a:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+.navbar-bawah .container-fluid ul li a.active {
+  color: black;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .navbar-atas {
+    display: none;
+  }
 }

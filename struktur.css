@@ -13,8 +13,18 @@ nav {
   box-sizing: border-box;
 }
 
+.navbar-atas {
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
 .navbar-atas .container-fluid .collapse ul li a {
   font-size: 0.8rem;
+  font-weight: 400;
+  color: rgb(194, 194, 194);
+}
+
+.navbar-atas .container-fluid .collapse ul li a:hover {
+  color: rgb(224, 146, 0);
 }
 
 .navbar-atas .container-fluid form {
@@ -31,6 +41,7 @@ nav {
   margin: 0;
   padding: 0.3rem 0.5rem;
   color: black;
+  border-radius: 5px;
 }
 .navbar-atas .container-fluid .sosmed a:hover {
   background-color: black;
@@ -39,6 +50,10 @@ nav {
 }
 
 /* Navbar Nawah */
+.navbar-bawah {
+  box-shadow: -5px 5px 10px rgba(133, 133, 133, 0.8);
+}
+
 .navbar-bawah .container-fluid .navbar-nav {
   width: auto;
   margin: auto;
@@ -51,16 +66,89 @@ nav {
 
 .navbar-bawah .container-fluid ul li a {
   font-size: 1rem;
+  font-weight: 400;
   color: rgb(194, 194, 194);
 }
 
 .navbar-bawah .container-fluid ul li a:hover {
-  color: black;
+  color: rgb(224, 146, 0);
   transition: 0.2s;
 }
 
 .navbar-bawah .container-fluid ul li a.active {
-  color: black;
+  color: rgb(224, 146, 0);
+}
+
+/* Judul Tentang UT */
+.hero .judul-ut {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.hero .judul-ut h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 3rem;
+}
+
+.hero .paragraf {
+  padding: 1rem 0;
+  text-align: justify;
+  margin: 0.5rem 0;
+}
+
+.hero .paragraf p {
+  font-weight: 400;
+  margin: 0 3rem;
+}
+
+.hero .bg-ut {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.hero .bg-ut img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero .row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .row .col-lg-4 {
+  margin: 3rem 0;
+}
+
+.hero .row .col-lg-4 a {
+  font-size: 6rem;
+  color: rgb(224, 146, 0);
+}
+
+.hero .row .col-lg-4 h3 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.hero .row .col-lg-4 hr {
+  width: 80%;
+  margin: auto;
+}
+
+.hero .row .col-lg-4 p {
+  text-align: justify;
+  margin: 1rem 1rem 0.2rem;
+}
+
+.hero .row .col-lg-4 ol li {
+  text-align: justify;
 }
 
 /* Media Queries */
@@ -69,5 +157,9 @@ nav {
 @media (max-width: 768px) {
   .navbar-atas {
     display: none;
+  }
+
+  .hero .row .col-lg-4 {
+    margin: 1rem 0;
   }
 }

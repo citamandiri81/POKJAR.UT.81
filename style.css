@@ -148,6 +148,10 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
 }
+
+.container .row .hero .card {
+  border: 2px solid rgb(255, 166, 0);
+}
 /* Hero Section End */
 
 /* Footer */
@@ -174,5 +178,13 @@ body {
 
   .container .row .gambar {
     margin: auto;
+  }
+}
+
+/* Handphone */
+@media (max-width: 768px) {
+  .container .row .col-sm-12 .hubungi,
+  .container .row .col-sm-12 .sosmed {
+    margin: 0 0.5rem;
   }
 }

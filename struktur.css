@@ -168,7 +168,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: rgb(255, 255, 255);
   border-top: 2px solid rgb(228, 228, 228);
 }
@@ -192,5 +192,16 @@ footer a:hover {
 
   .hero .row .col-lg-4 {
     margin: 1rem 0;
+  }
+
+  .hero .row .col-lg-11 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .hero .row .col-lg-11 {
+    margin-bottom: 2rem;
   }
 }
